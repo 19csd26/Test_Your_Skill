@@ -38,8 +38,8 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
 (1, 'raghav.com', 'cse@2001'),
-(2, 'admin@admin.com', 'admin')
-(3, 'aman.com', 'cse@2001'),;
+(2, 'admin@admin.com', 'admin'),
+(3, 'aman.com', 'cse@2001');
 
 -- --------------------------------------------------------
 
