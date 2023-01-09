@@ -37,8 +37,9 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
-(1, 'sunnygkp10@gmail.com', '123456'),
-(2, 'admin@admin.com', 'admin');
+(1, 'raghav.com', 'cse@2001'),
+(2, 'admin@admin.com', 'admin')
+(3, 'aman.com', 'cse@2001'),;
 
 -- --------------------------------------------------------
 
@@ -96,7 +97,7 @@ CREATE TABLE `feedback` (
 
 INSERT INTO `feedback` (`id`, `name`, `email`, `subject`, `feedback`, `date`, `time`) VALUES
 ('55846be776610', 'testing', 'sunnygkp10@gmail.com', 'testing', 'testing stART', '2015-06-19', '09:22:15pm'),
-('5584ddd0da0ab', 'netcamp', 'sunnygkp10@gmail.com', 'feedback', ';mLBLB', '2015-06-20', '05:28:16am'),
+('5584ddd0da0ab', 'hello', 'hello@gmail.com', 'feedback', ';mLBLB', '2015-06-20', '05:28:16am'),
 ('558510a8a1234', 'sunnygkp10', 'sunnygkp10@gmail.com', 'dl;dsnklfn', 'fmdsfld fdj', '2015-06-20', '09:05:12am'),
 ('5585509097ae2', 'sunny', 'sunnygkp10@gmail.com', 'kcsncsk', 'l.mdsavn', '2015-06-20', '01:37:52pm'),
 ('5586ee27af2c9', 'vikas', 'vikas@gmail.com', 'trial feedback', 'triaal feedbak', '2015-06-21', '07:02:31pm'),
@@ -123,10 +124,9 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`email`, `eid`, `score`, `level`, `sahi`, `wrong`, `date`) VALUES
-('sunnygkp10@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 09:31:26'),
-('sunnygkp10@gmail.com', '558920ff906b8', 4, 2, 2, 0, '2015-06-23 13:32:09'),
-('avantika420@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 14:33:04'),
-('avantika420@gmail.com', '5589222f16b93', 4, 2, 2, 0, '2015-06-23 14:49:39'),
+('rag@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 09:31:26'),
+('amn@gmail.com', '558920ff906b8', 4, 2, 2, 0, '2015-06-23 13:32:09'),
+('cool@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 14:33:04'),
 ('sunnygkp10@gmail.com', '5589741f9ed52', 4, 5, 3, 2, '2015-06-23 15:07:16'),
 ('mi5@hollywood.com', '5589222f16b93', 4, 2, 2, 0, '2015-06-23 15:12:56'),
 ('nik1@gmail.com', '558921841f1ec', 1, 2, 1, 1, '2015-06-23 16:11:50'),
